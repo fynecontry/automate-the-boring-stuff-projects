@@ -40,12 +40,17 @@ password_elem.send_keys(user_password)
 password_elem.send_keys(Keys.RETURN)
 logging.info('Sign in successful')
 
-
 # draft email body
+time.sleep(30)
 browser.get('https://mail.google.com/mail/u/0/#inbox?compose=new')
-recipient_elem = browser.find_element(By.XPATH, '//textarea[@id=":95"]')
-recipient_elem.clear()
+recipient_elem = browser.find_element(By.XPATH, '//textarea[@id=":8z"]')
 recipient_elem.send_keys(destination_email)
+subject_elem = browser.find_element(By.XPATH, '//input[@id=":8h"]')
+subject_elem.send_keys('Automated email')
+email_body_elem = browser.find_element(By.XPATH, '//div[@id=":9n"]')
+email_body_elem.send_keys(message)
 
+# send email
+send_elem = browser.find_element(By.XPATH, '//div[@id=":87"]')
+send_elem.click()
 
-# TODO: Send email
