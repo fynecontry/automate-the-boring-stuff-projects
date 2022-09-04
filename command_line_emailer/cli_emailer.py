@@ -3,7 +3,6 @@
 #                   and message as args and send email to dest.
 
 import sys, logging
-import time
 import pyinputplus as pyip
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -33,7 +32,7 @@ username_elem.clear()
 username_elem.send_keys(source_email)
 username_elem.send_keys(Keys.RETURN)
 logging.info('user email accepted')
-time.sleep(20)
+browser.implicitly_wait(15)
 password_elem = browser.find_element(By.XPATH,'//*[@id ="password"]/div[1]/div / div[1]/input')
 password_elem.clear()
 password_elem.send_keys(user_password)
@@ -41,7 +40,7 @@ password_elem.send_keys(Keys.RETURN)
 logging.info('Sign in successful')
 
 # draft email body
-time.sleep(30)
+browser.implicitly_wait(30)
 browser.get('https://mail.google.com/mail/u/0/#inbox?compose=new')
 recipient_elem = browser.find_element(By.XPATH, '//textarea[@id=":8z"]')
 recipient_elem.send_keys(destination_email)
@@ -53,4 +52,4 @@ email_body_elem.send_keys(message)
 # send email
 send_elem = browser.find_element(By.XPATH, '//div[@id=":87"]')
 send_elem.click()
-
+logging.info('Mail sent successfully')
