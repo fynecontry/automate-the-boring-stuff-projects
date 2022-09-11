@@ -33,10 +33,46 @@ def download_webpage(search_keyword):
 def download_images(page_response):
     '''Retrive list of image elements from webpage reponse and save to disk'''
     page_soup = bs4.BeautifulSoup(page_response.text, 'html.parser')
-    img_elems = page_soup.select('.photo-list-pjdkhoto-container')
+    img_elems = page_soup.select('.photo-list-photo-container')
     if img_elems == []:
         print('Could not find images')
         logging.warning('Empty img_elems list, page_soup could not find images using class: .photo-list-photo-container')
+    else:
+        # Create directory to store images
+        os.makedirs('downloaded_images', exist_ok=True)
+        # Extract images url
+        img_sources = []
+        for i in range(10):
+            img_elem = str(img_elems[i])
+            try:
+                url_start_index = img_elem.find('live')
+                url_end_index = img_elem.find('.jpg') + 4
+            except Exception as err:
+                print('Could not find image source starting with live and ending in .jpg')
+                logging.info(err)
+                continue
+            
+            img_url = 'https://' + img_elem[url_start_index : url_end_index]
+            img_sources.append(img_url)
+
+        for img_url in img_sources:
+            try:
+                print(f'Downloading image at {img_url}...')
+                logging.info(f'Fetching image file: {img_url}')
+                img_response = requests.get(img_url)
+                img_response.raise_for_status()
+                logging.info(f'Fetched {img_url} successfully')
+
+            except Exception as err:
+                print(f'{img_url} download failed!')
+                logging.error(err)
+                continue
+            
+            logging.info('writing image to disk')
+            with open(os.path.join('downloaded_images',os.path.basename(img_url)), 'wb') as img_file:
+                for chunk in img_response.iter_content(100000):
+                    img_file.write(chunk)
+            logging.info('write successful')
 
 
 def main():
