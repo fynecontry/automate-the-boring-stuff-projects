@@ -1,0 +1,18 @@
+2022-09-11 05:49:48,799 - INFO - Downloading page
+2022-09-11 05:49:48,804 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-11 05:49:51,570 - DEBUG - https://www.flickr.com:443 "GET /search/?text=cat HTTP/1.1" 200 None
+2022-09-11 05:49:51,599 - INFO - Downloaded page successfully
+2022-09-11 05:52:11,764 - INFO - Downloading page
+2022-09-11 05:52:11,768 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-11 05:52:12,180 - DEBUG - https://www.flickr.com:443 "GET /search/?text=cat HTTP/1.1" 200 None
+2022-09-11 05:52:12,260 - INFO - Downloaded page successfully
+2022-09-11 09:11:08,103 - INFO - Downloading page
+2022-09-11 09:11:08,111 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-11 09:11:10,202 - DEBUG - https://www.flickr.com:443 "GET /search/?text=cat HTTP/1.1" 200 None
+2022-09-11 09:11:10,215 - INFO - Downloaded page successfully
+2022-09-11 09:11:10,361 - WARNING - Empty image list, page_soup could not find images using class: .photo-list-photo-container
+2022-09-11 09:12:41,384 - INFO - Downloading page
+2022-09-11 09:12:41,388 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-11 09:12:42,624 - DEBUG - https://www.flickr.com:443 "GET /search/?text=cat HTTP/1.1" 200 None
+2022-09-11 09:12:42,656 - INFO - Downloaded page successfully
+2022-09-11 09:12:42,813 - WARNING - Empty image list, page_soup could not find images using class: .photo-list-photo-container
