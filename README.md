@@ -24,6 +24,7 @@ This will install the following modules:
 * `pyautogui==0.9.42`
 
 ### Projects Description
+* [image_site_downloader](https://github.com/fynecontry/automate-the-boring-stuff-projects/tree/main/image_site_downloader) - A program which navgiates to [Flickr](https://www.flickr.com/), searches user provided `keyword` and downloads 10 of images to disk. 
 
 * [command_line_emailer](https://github.com/fynecontry/automate-the-boring-stuff-projects/tree/main/command_line_emailer) - A tool which send emails via the command line using args passed.
 
