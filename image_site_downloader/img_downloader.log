@@ -62,3 +62,133 @@
 2022-09-11 10:26:37,401 - INFO - Fetched https://live.staticflickr.com/8545/8700559587_0bfe85fd6d_m.jpg successfully
 2022-09-11 10:26:37,402 - INFO - writing image to disk
 2022-09-11 10:26:37,402 - INFO - write successful
+2022-09-23 06:41:43,452 - INFO - Downloading page
+2022-09-23 06:41:43,461 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-23 06:41:46,572 - DEBUG - https://www.flickr.com:443 "GET /search/?text=dogs HTTP/1.1" 200 None
+2022-09-23 06:41:46,660 - INFO - Downloaded page successfully
+2022-09-23 06:41:46,868 - INFO - Fetching image file: https://live.staticflickr.com/1876/30735855818_254ccc46b2_n.jpg
+2022-09-23 06:41:46,872 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,355 - DEBUG - https://live.staticflickr.com:443 "GET /1876/30735855818_254ccc46b2_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,363 - INFO - Fetched https://live.staticflickr.com/1876/30735855818_254ccc46b2_n.jpg successfully
+2022-09-23 06:41:49,365 - INFO - writing image to disk
+2022-09-23 06:41:49,366 - INFO - write successful
+2022-09-23 06:41:49,366 - INFO - Fetching image file: https://live.staticflickr.com/3367/3266551852_44a551fcec_n.jpg
+2022-09-23 06:41:49,371 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,422 - DEBUG - https://live.staticflickr.com:443 "GET /3367/3266551852_44a551fcec_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,426 - INFO - Fetched https://live.staticflickr.com/3367/3266551852_44a551fcec_n.jpg successfully
+2022-09-23 06:41:49,427 - INFO - writing image to disk
+2022-09-23 06:41:49,427 - INFO - write successful
+2022-09-23 06:41:49,428 - INFO - Fetching image file: https://live.staticflickr.com/8017/7702561960_f16ef0830c_n.jpg
+2022-09-23 06:41:49,430 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,468 - DEBUG - https://live.staticflickr.com:443 "GET /8017/7702561960_f16ef0830c_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,472 - INFO - Fetched https://live.staticflickr.com/8017/7702561960_f16ef0830c_n.jpg successfully
+2022-09-23 06:41:49,473 - INFO - writing image to disk
+2022-09-23 06:41:49,473 - INFO - write successful
+2022-09-23 06:41:49,473 - INFO - Fetching image file: https://live.staticflickr.com/6042/6212861696_309f98048f_n.jpg
+2022-09-23 06:41:49,475 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,518 - DEBUG - https://live.staticflickr.com:443 "GET /6042/6212861696_309f98048f_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,522 - INFO - Fetched https://live.staticflickr.com/6042/6212861696_309f98048f_n.jpg successfully
+2022-09-23 06:41:49,523 - INFO - writing image to disk
+2022-09-23 06:41:49,523 - INFO - write successful
+2022-09-23 06:41:49,523 - INFO - Fetching image file: https://live.staticflickr.com/8165/7702559162_f1d3d865b6_n.jpg
+2022-09-23 06:41:49,526 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,568 - DEBUG - https://live.staticflickr.com:443 "GET /8165/7702559162_f1d3d865b6_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,571 - INFO - Fetched https://live.staticflickr.com/8165/7702559162_f1d3d865b6_n.jpg successfully
+2022-09-23 06:41:49,572 - INFO - writing image to disk
+2022-09-23 06:41:49,573 - INFO - write successful
+2022-09-23 06:41:49,573 - INFO - Fetching image file: https://live.staticflickr.com/2163/2212015655_9171be0763_m.jpg
+2022-09-23 06:41:49,575 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,614 - DEBUG - https://live.staticflickr.com:443 "GET /2163/2212015655_9171be0763_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,617 - INFO - Fetched https://live.staticflickr.com/2163/2212015655_9171be0763_m.jpg successfully
+2022-09-23 06:41:49,618 - INFO - writing image to disk
+2022-09-23 06:41:49,618 - INFO - write successful
+2022-09-23 06:41:49,619 - INFO - Fetching image file: https://live.staticflickr.com/7398/12876613733_6bd023341f_m.jpg
+2022-09-23 06:41:49,621 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,659 - DEBUG - https://live.staticflickr.com:443 "GET /7398/12876613733_6bd023341f_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,663 - INFO - Fetched https://live.staticflickr.com/7398/12876613733_6bd023341f_m.jpg successfully
+2022-09-23 06:41:49,664 - INFO - writing image to disk
+2022-09-23 06:41:49,664 - INFO - write successful
+2022-09-23 06:41:49,664 - INFO - Fetching image file: https://live.staticflickr.com/4697/26429741418_4ef58c2649_n.jpg
+2022-09-23 06:41:49,666 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,705 - DEBUG - https://live.staticflickr.com:443 "GET /4697/26429741418_4ef58c2649_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,708 - INFO - Fetched https://live.staticflickr.com/4697/26429741418_4ef58c2649_n.jpg successfully
+2022-09-23 06:41:49,709 - INFO - writing image to disk
+2022-09-23 06:41:49,710 - INFO - write successful
+2022-09-23 06:41:49,710 - INFO - Fetching image file: https://live.staticflickr.com/8693/17010075230_a906b303c4_n.jpg
+2022-09-23 06:41:49,712 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,750 - DEBUG - https://live.staticflickr.com:443 "GET /8693/17010075230_a906b303c4_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,753 - INFO - Fetched https://live.staticflickr.com/8693/17010075230_a906b303c4_n.jpg successfully
+2022-09-23 06:41:49,754 - INFO - writing image to disk
+2022-09-23 06:41:49,755 - INFO - write successful
+2022-09-23 06:41:49,755 - INFO - Fetching image file: https://live.staticflickr.com/2824/12876496715_2e4c9471cc_m.jpg
+2022-09-23 06:41:49,757 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:41:49,795 - DEBUG - https://live.staticflickr.com:443 "GET /2824/12876496715_2e4c9471cc_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:41:49,799 - INFO - Fetched https://live.staticflickr.com/2824/12876496715_2e4c9471cc_m.jpg successfully
+2022-09-23 06:41:49,800 - INFO - writing image to disk
+2022-09-23 06:41:49,800 - INFO - write successful
+2022-09-23 06:56:38,932 - INFO - Downloading page
+2022-09-23 06:56:38,937 - DEBUG - Starting new HTTPS connection (1): www.flickr.com:443
+2022-09-23 06:56:39,352 - DEBUG - https://www.flickr.com:443 "GET /search/?text=dogs HTTP/1.1" 200 None
+2022-09-23 06:56:39,365 - INFO - Downloaded page successfully
+2022-09-23 06:56:39,366 - INFO - Page download took 0.43 seconds...
+2022-09-23 06:56:39,511 - INFO - Fetching image file: https://live.staticflickr.com/1876/30735855818_254ccc46b2_n.jpg
+2022-09-23 06:56:39,515 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,393 - DEBUG - https://live.staticflickr.com:443 "GET /1876/30735855818_254ccc46b2_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,402 - INFO - Fetched https://live.staticflickr.com/1876/30735855818_254ccc46b2_n.jpg successfully
+2022-09-23 06:56:40,404 - INFO - writing image to disk
+2022-09-23 06:56:40,406 - INFO - write successful
+2022-09-23 06:56:40,406 - INFO - Fetching image file: https://live.staticflickr.com/8017/7702561960_f16ef0830c_n.jpg
+2022-09-23 06:56:40,412 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,448 - DEBUG - https://live.staticflickr.com:443 "GET /8017/7702561960_f16ef0830c_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,452 - INFO - Fetched https://live.staticflickr.com/8017/7702561960_f16ef0830c_n.jpg successfully
+2022-09-23 06:56:40,453 - INFO - writing image to disk
+2022-09-23 06:56:40,454 - INFO - write successful
+2022-09-23 06:56:40,454 - INFO - Fetching image file: https://live.staticflickr.com/2948/15274758397_a8e8f20497_m.jpg
+2022-09-23 06:56:40,456 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,496 - DEBUG - https://live.staticflickr.com:443 "GET /2948/15274758397_a8e8f20497_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,499 - INFO - Fetched https://live.staticflickr.com/2948/15274758397_a8e8f20497_m.jpg successfully
+2022-09-23 06:56:40,500 - INFO - writing image to disk
+2022-09-23 06:56:40,500 - INFO - write successful
+2022-09-23 06:56:40,501 - INFO - Fetching image file: https://live.staticflickr.com/8165/7702559162_f1d3d865b6_n.jpg
+2022-09-23 06:56:40,503 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,539 - DEBUG - https://live.staticflickr.com:443 "GET /8165/7702559162_f1d3d865b6_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,542 - INFO - Fetched https://live.staticflickr.com/8165/7702559162_f1d3d865b6_n.jpg successfully
+2022-09-23 06:56:40,543 - INFO - writing image to disk
+2022-09-23 06:56:40,544 - INFO - write successful
+2022-09-23 06:56:40,544 - INFO - Fetching image file: https://live.staticflickr.com/7398/12876613733_6bd023341f_m.jpg
+2022-09-23 06:56:40,546 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,582 - DEBUG - https://live.staticflickr.com:443 "GET /7398/12876613733_6bd023341f_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,585 - INFO - Fetched https://live.staticflickr.com/7398/12876613733_6bd023341f_m.jpg successfully
+2022-09-23 06:56:40,586 - INFO - writing image to disk
+2022-09-23 06:56:40,587 - INFO - write successful
+2022-09-23 06:56:40,587 - INFO - Fetching image file: https://live.staticflickr.com/4426/35678337044_6828001f7d_n.jpg
+2022-09-23 06:56:40,589 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,629 - DEBUG - https://live.staticflickr.com:443 "GET /4426/35678337044_6828001f7d_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,632 - INFO - Fetched https://live.staticflickr.com/4426/35678337044_6828001f7d_n.jpg successfully
+2022-09-23 06:56:40,633 - INFO - writing image to disk
+2022-09-23 06:56:40,634 - INFO - write successful
+2022-09-23 06:56:40,634 - INFO - Fetching image file: https://live.staticflickr.com/2245/1564497755_73ef63a3ba_m.jpg
+2022-09-23 06:56:40,636 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,676 - DEBUG - https://live.staticflickr.com:443 "GET /2245/1564497755_73ef63a3ba_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,679 - INFO - Fetched https://live.staticflickr.com/2245/1564497755_73ef63a3ba_m.jpg successfully
+2022-09-23 06:56:40,680 - INFO - writing image to disk
+2022-09-23 06:56:40,681 - INFO - write successful
+2022-09-23 06:56:40,681 - INFO - Fetching image file: https://live.staticflickr.com/8052/8447798856_fda7599a21_m.jpg
+2022-09-23 06:56:40,683 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,722 - DEBUG - https://live.staticflickr.com:443 "GET /8052/8447798856_fda7599a21_m.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,725 - INFO - Fetched https://live.staticflickr.com/8052/8447798856_fda7599a21_m.jpg successfully
+2022-09-23 06:56:40,726 - INFO - writing image to disk
+2022-09-23 06:56:40,727 - INFO - write successful
+2022-09-23 06:56:40,727 - INFO - Fetching image file: https://live.staticflickr.com/7277/7702559406_17b454e2c7_n.jpg
+2022-09-23 06:56:40,729 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,768 - DEBUG - https://live.staticflickr.com:443 "GET /7277/7702559406_17b454e2c7_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,772 - INFO - Fetched https://live.staticflickr.com/7277/7702559406_17b454e2c7_n.jpg successfully
+2022-09-23 06:56:40,773 - INFO - writing image to disk
+2022-09-23 06:56:40,773 - INFO - write successful
+2022-09-23 06:56:40,773 - INFO - Fetching image file: https://live.staticflickr.com/7393/12876512883_8484734c69_n.jpg
+2022-09-23 06:56:40,775 - DEBUG - Starting new HTTPS connection (1): live.staticflickr.com:443
+2022-09-23 06:56:40,814 - DEBUG - https://live.staticflickr.com:443 "GET /7393/12876512883_8484734c69_n.jpg HTTP/1.1" 200 None
+2022-09-23 06:56:40,818 - INFO - Fetched https://live.staticflickr.com/7393/12876512883_8484734c69_n.jpg successfully
+2022-09-23 06:56:40,819 - INFO - writing image to disk
+2022-09-23 06:56:40,819 - INFO - write successful
+2022-09-23 06:56:40,819 - INFO - Images downloaded in 1.45 seconds...

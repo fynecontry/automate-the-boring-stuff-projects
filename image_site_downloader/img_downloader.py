@@ -2,7 +2,7 @@
 # img_downloader.py     - searches flickr for CLI provided word and 
 #                       downloads 10 images into a folder
 
-import sys, os, logging, requests,bs4
+import sys, os, logging, requests, bs4, time
 
 logging.basicConfig(filename='img_downloader.log',level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -80,9 +80,15 @@ def main():
     search_keyword = get_keyword()
 
     #search and download result
+    page_download_start = time.time()
     page_response = download_webpage(search_keyword)
+    page_download_end = time.time()
+    logging.info(f'Page download took {round(page_download_end - page_download_start, 2)} seconds...')
 
+    img_download_start = time.time()
     download_images(page_response)
+    img_download_end = time.time()
+    logging.info(f'Images downloaded in {round(img_download_end - img_download_start, 2)} seconds...')
 
 if __name__ == "__main__":
     main()
