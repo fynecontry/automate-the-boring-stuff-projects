@@ -16,7 +16,7 @@ This will install the following modules:
 * `imapclient==2.1.0`
 * `pyzmail36==1.0.4`
 * `twilio`
-* `pillow==5.4.1`
+* `pillow==10.3.0`
 * `PyInputPlus==0.2.6`
 * `ezgmail==0.0.4`
 * `ezsheets==0.0.2`
